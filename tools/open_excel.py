@@ -2,7 +2,7 @@ import xlrd  # 操作execl需要的包   要提前进行安装
 import json  # 处理json和python类型转换所用的包
 import conf  # 导入配置文件  配置路径在这个文件
 
-#反倒是科技范德萨
+
 class OpenExcel(object):
     def __init__(self):
         excel_file = conf.Excel_File_Path  # 得到execl文件的路径
